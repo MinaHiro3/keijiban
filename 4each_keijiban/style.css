@@ -1,0 +1,107 @@
+header{
+    top: 0px; 
+    left: 0px;
+    width: 100%; 
+    height: 20%;
+}
+
+.header-menu{
+    height: 50px; 
+    width: 100%;
+    background-color: black;
+}
+
+.header-menu li{
+    float: left;
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+
+.main-container{
+    width: 100%; 
+    height: 100%;
+    margin: 10px;
+    margin-top: auto;
+}
+
+.left{
+    float: left;
+    width: 65%;
+}
+.form{
+    height:60%;
+}
+
+.form h1{
+    border-bottom: 2px solid gray;
+    border-left: 5px solid black;
+}
+
+form h3{
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-left:4px red solid;
+    background-color: #f1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size:20px;
+}
+
+form{
+    margin:0 auto;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+}
+
+form div{
+    padding:15px;
+}
+
+.text,textarea,dropdown{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color:#999;
+    background: #fff;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding:4px 10px;
+    color:white;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+
+.kiji{
+    height: 100px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    background-color: #f1f1f1;
+}
+
+.kiji h3{
+    border-bottom: 3px solid black;
+}
+
+
+.right{
+    float: right;
+    width: 30%; 
+}
+    .right h3{
+    border-bottom: dotted 2px black;
+}
+footer{
+    clear: both;
+    width: 100%;
+    bottom: 0; 
+    left:0;
+    background-color: black; 
+    color: white;
+    text-align: center;
+}
